@@ -1,0 +1,21 @@
+Для push-а своих изменений:
+
+git pull --recurse-submodules
+
+в плагине: 
+git checkout b
+git add .
+git commit -m "Comment"
+
+
+обрабно в приложение:
+git add .
+git commit -m "Comment"
+
+и потом 
+git push --recurse-submodules=on-demand
+
+
+
+
+niKa3195_
