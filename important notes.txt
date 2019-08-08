@@ -3,7 +3,7 @@
 git pull --recurse-submodules
 
 в плагине: 
-git checkout b
+git checkout b   -   checkout on the branch that you need
 git add .
 git commit -m "Comment"
 
